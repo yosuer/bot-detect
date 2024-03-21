@@ -1,46 +1,19 @@
-This package was bootstrapped with Margaret Framework.
+Boot detector
 
-More information can be found in [Margaret's documentation.](https://dev.prod.hulu.com/margaret-frameworks/web)
+## Bundles available
 
-## Available Scripts
+[Company 1](https://dc0g2klsmff65.cloudfront.net/bot-detect-company1.js) fingerprint | type speed | bot
 
-**`npm run build`**
+[Company 2](https://dc0g2klsmff65.cloudfront.net/bot-detect-company2.js) type speed | bot
 
-Creates a transpiled bundle a package.
+[Company 3](https://dc0g2klsmff65.cloudfront.net/bot-detect-company3.js) no modules
 
-**`npm run lint`**
 
-Runs linting for a package.
+## Installation
 
-**`npm run lint:fix`**
-
-Runs the same linting process as in the `npm run lint` command, but also attempts to auto-fix any `ESLint` errors. If errors are not possible to auto-fix, you will need to resolve them manually.
-
-**`npm run stylelint`**
-
-Runs linting of CSS for a package.
-
-**`npm run stylelint:fix`**
-
-Runs the same linting process as in the `npm run stylelint` command, but also attempts to auto-fix any errors. If errors are not possible to auto-fix, you will need to resolve them manually.
-
-**`npm run test`**
-
-Runs tests for a package.
-
-**`npm run test:coverage`**
-
-Runs tests and generates coverage reports. A report is printed to `stdout` while other formats (e.g., json, html) are written to a `coverage` directory within each package of the monorepo.
-
-**`npm run test:watch`**
-
-Executes tests in a watch mode for a package.
-
-**`npm run typecheck`**
-
-Runs the TypeScript compiler without emitting any compiled files. It is useful to check if your code is type-safe and you are using the type system correctly.
-
-**`npm run generate-type-declaration`**
-
-Generates type declaration (`index.d.ts`) files for a package.
-It is called automatically as a precommit hook when any `.ts` or `.tsx` file was created or modified.
+```html
+  <body>
+    ...
+    <script defer src="https://dc0g2klsmff65.cloudfront.net/bot-detect-company1.js"></script>
+  </body>
+```
