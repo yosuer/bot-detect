@@ -1,0 +1,19 @@
+.gitignore
+gitignore
+.idea
+public
+node_modules
+yarn.lock
+package-lock.json
+# the following are build artifacts that do not pertain to package-based projects.
+# we ignore them here (rather than overly modify the webpack config)
+dist/index.html
+dist/service-worker.js
+dist/precache-manifest.*.js
+
+src/**/*.stories.*
+src/**/*.test.*
+.eslintignore
+.eslintrc.json
+.prettierrc.json
+tsconfig.json
